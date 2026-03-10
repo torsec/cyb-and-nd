@@ -1,4 +1,4 @@
-# Cybersecurity and National Defense
+# Cybersecurity and National Defence
 ## A.Y. 2025/2026
 
 ### Contacts
@@ -30,7 +30,7 @@ Generally, a research project is structured following the IMRAD format. The acro
 * **D**iscussion: What does it mean?
 
 ## Where to find quality sources
-One of the most important part of the research is to find quality sources.
+One of the most important parts of the research is finding high-quality sources.
 
 * **Good sources:**
     * IEEE Xplore (https://ieeexplore.ieee.org/)
@@ -265,7 +265,7 @@ Usage example:
     doi                     = {10.17487/RFC9334},
 }
 ```
-NOTE: to use this entry, insert the following in the latex source file
+NOTE: to use this entry, insert the following in the LaTeX source file
 ```latex
 \newcommand{\rfc}[1]{RFC-#1\xspace}
 ```
@@ -351,7 +351,7 @@ You have different options:
 #### Clone a repository
 * Click on the **Source Control** icon in the left sidebar
 * click on the **Clone Repository** button
-* on the top of the screen, under the bar, it will appear a tab asking for the *repository URL*
+* on the top of the screen, under the bar, a tab will appear asking for the *repository URL*
     * insert the URL of the repository
     * or click on **Clone from GitHub**
         * then, select the proper repository
@@ -384,7 +384,7 @@ To do this:
 * Click on the **Source Control** icon in the left sidebar
 * click on the **Push** button
 
-## Git from command line
+## Git from the command line
 ### Initialize a repository
 ```bash
 git init
@@ -435,7 +435,7 @@ git push origin main
 ---
 
 # Part 4: Presentations
-Reccomendations for an effective and clear presentation.
+Recommendations for an effective and clear presentation.
 
 ## Guidelines for PowerPoint formatting
 * Each slide must be visualised for **at most 1-2 minutes**
