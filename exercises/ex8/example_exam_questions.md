@@ -56,7 +56,6 @@ This document contains examples of questions for the Cybersecurity and National 
 ---
 
 ## Part 1: Open Questions
-*Please answer the following questions clearly and concisely. You have approximately 15-20 minutes for this section.*
 
 **Question 1 (example of simple question)**
 
@@ -96,6 +95,7 @@ Instead of directly encrypting the plaintext blocks, CTR mode encrypts a counter
 - A nonce (number used once) and a counter are combined to form a unique input block for each encryption operation.
 - This input is encrypted using the block cipher (e.g., AES), and the output is XORed with the plaintext to get the ciphertext.
 - For decryption, the same counter values are encrypted and XORed with the ciphertext to recover the plaintext.
+
 Vulnerability or Limitation of CTR Mode
 
 A major vulnerability of CTR mode is that reusing the *same nonce* with the *same key* leads to keystream reuse, which can result in a serious compromise of confidentiality.
@@ -112,7 +112,8 @@ Constraints:
 - The two parties are using resource constrained devices to exchange data (e.g., some IoT device).
 
 ***Answer:***
-*This list contains the concepts that needs to be mentioned in the answer, not the full answer itself. Obviously, it must be expressed in a clear way.*
+
+*Note: This list contains the concepts that needs to be mentioned in the answer, not the full answer itself. Obviously, it must be expressed in a clear way.*
 
 - Key exchange: Diffie-Hellman (3)
 - Symmetric Encryption -> After exchanging keys with DH, encrypt data with symmetric encryption.
@@ -214,7 +215,7 @@ For instance, I can use AES to encrypt the data (**confidentiality**). This is b
 
 **12. In the context of Remote Attestation, what is an Evidence?**
 - **A.** A claim, produced by the Attester, about its identity and integrity state.
-- **A.** A claim, produced by the Endorser, about its identity and integrity state.
+- **B.** A claim, produced by the Endorser, about its identity and integrity state.
 - **C.** A claim, produced by the Relying Party, about its identity and integrity state.
 - **D.** A claim, produced by the Attester, that the Verifier can use to make an access/trust decision.
 
@@ -228,13 +229,13 @@ For instance, I can use AES to encrypt the data (**confidentiality**). This is b
 
 **Correct Answer:** A
 
-**14. Which cognitive bias is characterized by unskilled individuals overestimating their own competence, making them more vulnerable to manipulation because they lack the capacity to recognize their own errors?**
-- **A.** Confirmation bias
-- **B.** The Dunning-Kruger effect
-- **C.** Availability heuristic
-- **D.** Authority bias
+**14. In the context of cybersecurity, what is the primary definition of "Social Engineering"?**
+- **A.** The psychological manipulation of people into performing actions or divulging confidential information, bypassing technical controls.
+- **B.** The process of reverse-engineering and analyzing malware spread through social networks.
+- **C.** An automated network attack that targets user directories and social media APIs.
+- **D.** The physical destruction of hardware assets to prevent data recovery.
 
-**Correct Answer:** B
+**Correct Answer:** A
 
 **15. A highly targeted phishing attack aimed specifically at C-level executives (such as CEOs or CFOs) to authorize large payments or wire transfers is known as:**
 - **A.** Vishing
@@ -253,7 +254,7 @@ For instance, I can use AES to encrypt the data (**confidentiality**). This is b
 **Correct Answer:** C
 
 **17. Which of the following are physical or hardware-based methods used to securely destroy or sanitize magnetic hard disks?**
-- **A.** Shredding
+- **A.** Shredding (or Wiping)
 - **B.** Degaussing
 - **C.** Formatting the drive
 - **D.** Using data wiping software
